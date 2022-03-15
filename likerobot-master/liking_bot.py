@@ -55,8 +55,8 @@ class IG_BOT:
 
 try:
     driver = webdriver.Chrome(r".\chromedriver.exe")
-    bot01 = IG_BOT(driver, "sessionid")
-    acc = "joshuahonguyen"
+    bot01 = IG_BOT(driver, "putasessionid")
+    acc = "putaaccounhere"
     while True:
         try:
             bot01.LIKE(bot01.load_acc(acc))
